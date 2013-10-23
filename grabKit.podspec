@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.author       = { "Pierre-Olivier Simonard" => "pierre.olivier.simonard@gmail.com" }
   
-  s.source       = { :git => "https://github.com/benuuu/grabKit.git", :tag => "v1.3.2" }
+  s.source       = { :git => "https://github.com/Benuuu/grabKit.git", :tag => "v1.3.2" }
 
 
   s.platform = :ios, '5.1'
