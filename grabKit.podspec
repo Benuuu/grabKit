@@ -24,9 +24,10 @@ Pod::Spec.new do |s|
   s.platform = :ios, '5.1'
 
   s.requires_arc = true
-  
-  s.source_files = 'grabKit/grabKit/**/*.{h,m}'
 
+  s.exclude_files = 'grabkit/grabKit/grabKitDemo/**'
+  s.source_files = 'grabKit/grabKit/**/*.{h,m}'
+  
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 
   s.resources = 'grabKit/grabKit/**/*.{xib,strings}'
