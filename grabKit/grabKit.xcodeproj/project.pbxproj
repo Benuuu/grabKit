@@ -560,7 +560,6 @@
 		5F89F1C115BFC18B00B8739D /* GrabKitBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrabKitBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F8B84B116F76DE600ADCC8D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "GrabKitDemo/Supporting Files/Default-568h@2x.png"; sourceTree = "<group>"; };
 		5F8B84BF16F793C800ADCC8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/GrabKitPicker.strings; sourceTree = "<group>"; };
-		5F8B84C116F793F400ADCC8D /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/GrabKitPicker.strings; sourceTree = "<group>"; };
 		5F8B84C216F9003B00ADCC8D /* GRKAlbum+modify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GRKAlbum+modify.h"; sourceTree = "<group>"; };
 		5F8B84C316F9003B00ADCC8D /* GRKAlbum+modify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GRKAlbum+modify.m"; sourceTree = "<group>"; };
 		5F8B84C816F903DB00ADCC8D /* GRKPhoto+modify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GRKPhoto+modify.h"; sourceTree = "<group>"; };
@@ -597,8 +596,6 @@
 		5F8E24A816A7F8660090F93B /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		5F8E24A916A7F8660090F93B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		5F990C471702F42200B89A7B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		5FA034C117A567C300313705 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/GrabKitPicker.strings"; sourceTree = "<group>"; };
-		5FA034C217A5697800313705 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/GrabKitPicker.strings; sourceTree = "<group>"; };
 		5FA4911315C3C3540000DADB /* GrabKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrabKit.h; sourceTree = "<group>"; };
 		5FB1344E16AAA3CA00BE500B /* LFHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFHTTPRequest.h; sourceTree = "<group>"; };
 		5FB1344F16AAA3CA00BE500B /* LFHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFHTTPRequest.m; sourceTree = "<group>"; };
@@ -1995,7 +1992,7 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 			};
-			buildConfigurationList = 5F3C2B4415B9F7FC008D894A /* Build configuration list for PBXProject "GrabKit" */;
+			buildConfigurationList = 5F3C2B4415B9F7FC008D894A /* Build configuration list for PBXProject "grabKit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2330,9 +2327,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				5F8B84BF16F793C800ADCC8D /* en */,
-				5F8B84C116F793F400ADCC8D /* fr */,
-				5FA034C117A567C300313705 /* zh-Hans */,
-				5FA034C217A5697800313705 /* tr */,
 			);
 			name = GrabKitPicker.strings;
 			sourceTree = "<group>";
@@ -2579,7 +2573,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F3C2B4415B9F7FC008D894A /* Build configuration list for PBXProject "GrabKit" */ = {
+		5F3C2B4415B9F7FC008D894A /* Build configuration list for PBXProject "grabKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F3C2B7515B9F7FC008D894A /* Debug */,
