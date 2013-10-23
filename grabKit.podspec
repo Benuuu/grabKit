@@ -25,7 +25,6 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.exclude_files = 'grabkit/grabKit/grabKitDemo/**'
   s.source_files = 'grabKit/grabKit/**/*.{h,m}'
   
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
